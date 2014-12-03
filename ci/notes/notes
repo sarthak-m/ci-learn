@@ -1,0 +1,1 @@
+$this->form_validation->set_rules('username', 'Usernmae', 'trim|required|min_length[4]|is_unique[membership.username]');
